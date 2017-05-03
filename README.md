@@ -54,7 +54,7 @@ var AzureB2C = {
     userId: null,
     
     // legacy - no longer needed in the updated ADAL libraries
-    resourceUrl: null
+    resourceUrl: ""
 };
 
 AzureB2C.createContext = function(){
